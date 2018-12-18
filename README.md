@@ -83,11 +83,11 @@ NUVOTON's N76E003
  
 	void main (void) 
 	{
-	Set_All_GPIO_Quasi_Mode;					// Define in Function_define.h
+	Set_All_GPIO_Quasi_Mode;		// Define in Function_define.h
 	
  	 while(1)
   	{
-			clr_GPIO1;											//  GPIO1 LED 
+			clr_GPIO1;		//  GPIO1 LED 
 		Timer0_Delay1ms(300);
 		set_GPIO1;	
 		Timer0_Delay1ms(300);
