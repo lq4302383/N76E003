@@ -5,7 +5,7 @@ NUVOTON's N76E003
 --------[一、开始准备工作](#1.1)  
 --------[二、安装软件](#1.2)  
 --------[三、创建N76E003工程](#1.3)  
---------[四、main.c中编写简单main函数，实现Led闪烁](#1.4)  
+--------[四、编写代码](#1.4)  
 --------[五、编译下载](#1.5)  
 [笔记02 ADC](#2)  
 [笔记03 串口](#3)  
@@ -72,7 +72,7 @@ NUVOTON's N76E003
 	10.3、配置Debug选项。定位到Debug界面，勾选Use、选择NUVOTON 8051 Keil C51 Driver。
 	10.4、配置Utilities选项。勾选Use TARGET DRIVER FOR FLASH PROGROMMING、选择NUVOTON 8051 Keil C51 Driver。
 	
-<h3 id="1.4">四、main.c中编写简单main函数，实现Led闪烁</h3>
+<h3 id="1.4">四、编写代码</h3>
     
     #include "N76E003.h"
 	#include "SFR_Macro.h"
@@ -106,6 +106,7 @@ NUVOTON's N76E003
 
 5、结束
 
+ [Original](https://blog.csdn.net/Huangxuesi/article/details/81032213)  
 
 <h2 id="2">笔记02 ADC</h2>
 TODO
