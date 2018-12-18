@@ -73,6 +73,7 @@ NUVOTON's N76E003
 	10.4、配置Utilities选项。勾选Use TARGET DRIVER FOR FLASH PROGROMMING、选择NUVOTON 8051 Keil C51 Driver。
 	
 <h3 id="1.4">四、编写代码</h3>
+在 main.c 文件编辑写入
     
     #include "N76E003.h"
 	#include "SFR_Macro.h"
