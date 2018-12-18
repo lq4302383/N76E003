@@ -51,16 +51,16 @@ NUVOTON's N76E003
 |src : 	.c文件    |
 
 
-2、复制BSP中的Common、Include、Startup文件夹到FwLib文件夹中
-3、打开Keil，创建新工程
-4、选择将工程创建在Project 文件夹中
-5、选择Device，选择N76E003，点“OK”会弹出一下的框，我们选择“否”
-6、在\N76E003_Template\User\src中创建main.c文件
-7、将文件加入我们的工程中去，右键点击Target1，选择Manage Components
-8、Project Targets一栏，我们将Target名字修改为N76E003_Template,然后在Groups一栏删掉一个，建立三个Groups：Startup,User,Common.
-9、往Group里面添加我们需要的文件，选择需要添加文件的Group，这里第一步我们选择Startup，然后点击右边的Add Files,定位到我们刚才建立的目录\N76E003_Template\FwLib\Startup下面，选择需要的文件，然后点击Add，然后Close.可以看到Files列表下面包含我们添加的文件。其他Groups添加方法一样，添加完成后最后点击OK，回到工程主界面。
+2、复制BSP中的Common、Include、Startup文件夹到FwLib文件夹中  
+3、打开Keil，创建新工程  
+4、选择将工程创建在Project 文件夹中  
+5、选择Device，选择N76E003，点“OK”会弹出一下的框，我们选择“否”  
+6、在\N76E003_Template\User\src中创建main.c文件  
+7、将文件加入我们的工程中去，右键点击Target1，选择Manage Components  
+8、Project Targets一栏，我们将Target名字修改为N76E003_Template,然后在Groups一栏删掉一个，建立三个Groups：Startup,User,Common  
+9、往Group里面添加我们需要的文件，选择需要添加文件的Group，这里第一步我们选择Startup，然后点击右边的Add Files,定位到我们刚才建立的目录\N76E003_Template\FwLib\Startup下面，选择需要的文件，然后点击Add，然后Close.可以看到Files列表下面包含我们添加的文件。其他Groups添加方法一样，添加完成后最后点击OK，回到工程主界面  
 10、点击魔术棒
-    出来一个菜单，然后点击 C51选项.然后点击Include Paths右边的按钮。弹出一个添加path的对话框，然后我们的2个目录添加进去。记住，keil只会在一级目录查找，所以如果你的目录下面还有子目录，记得path一定要定位到最后一级子目录。然后点击OK。
+    出来一个菜单，然后点击 C51选项.然后点击Include Paths右边的按钮。弹出一个添加path的对话框，然后我们的2个目录添加进去。记住，keil只会在一级目录查找，所以如果你的目录下面还有子目录，记得path一定要定位到最后一级子目录。然后点击OK  
 
 |        | 
 | --------- | 
@@ -94,11 +94,11 @@ NUVOTON's N76E003
     
 
 <h3 id="1.5">五、编译下载</h3>
-1、进行编译，编译完成，无错误。
-2、插入Nu-link，连接开发板
-3、下载固件
-4、开发板led正常闪烁
-5、结束  
+1、进行编译，编译完成，无错误  
+2、插入Nu-link，连接开发板  
+3、下载固件  
+4、开发板led正常闪烁  
+5、结束    
 
 <h2 id="2">笔记02 ADC</h2>
 TODO
