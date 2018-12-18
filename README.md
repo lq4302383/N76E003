@@ -40,10 +40,10 @@ NUVOTON's N76E003
 |src : 	.c文件    |
 
 
-2、复制BSP中的Common、Include、Startup文件夹到FwLib文件夹中
-3、打开Keil，创建新工程
-4、选择将工程创建在Project 文件夹中
-5、选择Device，选择N76E003，点“OK”会弹出一下的框，我们选择“否”
+2、复制BSP中的Common、Include、Startup文件夹到FwLib文件夹中  
+3、打开Keil，创建新工程  
+-4、选择将工程创建在Project 文件夹中  
+-5、选择Device，选择N76E003，点“OK”会弹出一下的框，我们选择“否”
 6、在\N76E003_Template\User\src中创建main.c文件
 7、将文件加入我们的工程中去，右键点击Target1，选择Manage Components
 8、Project Targets一栏，我们将Target名字修改为N76E003_Template,然后在Groups一栏删掉一个，建立三个Groups：Startup,User,Common.
