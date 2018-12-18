@@ -21,7 +21,7 @@ NUVOTON's N76E003
 | 2、安装N76E003_keil支持包N76E003_BSP_Keil_C51     |
 | 3、上一步中选择安装Nu-link驱动，N76E003使用Nu-link下载固件。     |  
     
-三、创建N76E003工程
+三、创建N76E003工程  
 1、准备工作，新建文件夹 N76E003_Template ：放置工程所有文件，在N76E003_Template中新建文件夹 FwLib、Project 、User 和 文本文件README.txt
 
 
@@ -70,11 +70,11 @@ NUVOTON's N76E003
  
 	void main (void) 
 	{
-	Set_All_GPIO_Quasi_Mode;					// Define in Function_define.h
+	Set_All_GPIO_Quasi_Mode;// Define in Function_define.h
 	
  	 while(1)
   	{
-			clr_GPIO1;											//  GPIO1 LED 
+			clr_GPIO1;//  GPIO1 LED 
 		Timer0_Delay1ms(300);
 		set_GPIO1;	
 		Timer0_Delay1ms(300);
@@ -82,7 +82,7 @@ NUVOTON's N76E003
 	}  
     
 
-五、编译下载
+五、编译下载  
 1、进行编译，编译完成，无错误。  
 2、插入Nu-link，连接开发板  
 3、下载固件  
